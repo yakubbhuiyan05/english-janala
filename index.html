@@ -131,9 +131,23 @@
           class="flex gap-5 flex-wrap justify-center"
         ></div>
       </section>
+      <!-- Search Section -->
+      <section class="flex justify-center mt-8">
+        <div class="join">
+          <div>
+            <label class="input validator join-item">
+              <input id="input-search" type="text" placeholder="Search Vocabulary Now" required />
+            </label>
+          </div>
+          <button id="btn-search" class="btn btn-primary join-item">Search</button>
+        </div>
+      </section>
       <!-- Select Lesson Section -->
 
-      <section class="flex justify-center items-center py-10">
+      <section
+        id="spinner"
+        class="flex justify-center items-center py-10 hidden"
+      >
         <span class="loading loading-infinity loading-xl"></span>
       </section>
 
